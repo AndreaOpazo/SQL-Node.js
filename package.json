@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/server.ts"
   },
   "author": "",
   "license": "ISC",
@@ -11,18 +12,19 @@
     "@types/socket.io": "^3.0.2",
     "express": "^4.17.1",
     "express-handlebars": "^5.3.3",
+    "knex": "^0.95.11",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.12",
     "socket.io": "^4.2.0",
     "socket.io-client": "^4.2.0",
+    "sqlite3": "^5.0.2",
     "ts-node": "^10.1.0",
-    "typescript": "^4.3.5",
-    "knex": "^0.95.11",
-    "sqlite3": "^5.0.2"
+    "typescript": "^4.3.5"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
     "@types/express-handlebars": "^5.3.1",
-    "@types/node": "^16.4.6"
+    "@types/node": "^16.9.2"
   },
   "description": ""
 }
